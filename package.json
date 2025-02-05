@@ -1,0 +1,46 @@
+{
+  "name": "@tixae-labs/react-voice-orb",
+  "version": "1.1.1",
+  "main": "dist/src/public_packages/react-voice-orb/src/index.js",
+  "types": "dist/src/public_packages/react-voice-orb/src/index.d.ts",
+  "scripts": {
+    "build": "tsc && bun run src/scripts/same-script.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moe03/ta-react-voice-orb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Moe03/ta-react-voice-orb/issues"
+  },
+  "homepage": "https://github.com/Moe03/ta-react-voice-orb#readme",
+  "keywords": [
+    "tixae",
+    "react animation orb",
+    "web call",
+    "voice call",
+    "voice ai",
+    "voice orb",
+    "voice animation orb"
+  ],
+  "author": "Moe Ayman - TIXAE LLC",
+  "license": "MIT",
+  "description": "React component for AI Voice calling Orb built with TIXAE Agents.",
+  "dependencies": {
+    "@tixae-labs/web-sdk": "^1.3.5",
+    "@types/color-convert": "^2.0.4",
+    "@types/three": "^0.173.0",
+    "color-convert": "^2.0.1",
+    "framer-motion": "^12.0.11",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.4.0",
+    "react-loader-spinner": "^6.1.6",
+    "three": "^0.173.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "latest"
+  }
+}
